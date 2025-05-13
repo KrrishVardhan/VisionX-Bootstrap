@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/Bootstrap/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VizionX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">What is a Graph?</a></li>
+                            <li><a class="dropdown-item" href="#">Types of Graphs</a></li>
+                            <li><a class="dropdown-item" href="#">Graph Terminology</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Adjacency Matrix vs List</a></li>
+                            <li><a class="dropdown-item" href="#">Graph Traversals: BFS & DFS</a></li>
+                            <li><a class="dropdown-item" href="#">Directed vs Undirected Graphs</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Weighted Graphs & Dijkstra's Algo</a></li>
+                            <li><a class="dropdown-item" href="#">Cycles and Acyclic Graphs</a></li>
+                            <li><a class="dropdown-item" href="#">Trees as Graphs</a></li>
+                            <li><a class="dropdown-item" href="#">Real-Life Applications</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>1st Year</option>
+                <option value="1">2nd Year</option>
+                <option value="2">3rd Year</option>
+                <option value="3">4th Year</option>
+            </select>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                <label class="form-check-label" for="switchCheckDefault">Allow E-mail Notifications</label>
+            </div>
+            <hr>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="d-flex flex-column flex-sm-row justify-content-between py-4 m-4 border-top">
+        <div class="d-flex flex-column mb-3 mb-sm-0">
+            <p class="mb-0">© 2025 Company, Inc. All rights reserved.</p>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row align-items-center">
+            <a href="index.html" class="text-decoration-none text-dark mx-2">Privacy Policy</a>
+            <a href="index.html" class="text-decoration-none text-dark mx-2">Terms of Service</a>
+            <a href="index.html" class="text-decoration-none text-dark mx-2">Contact Us</a>
+            <a href="#nav" class="text-decoration-none text-primary mx-2">Back to Top</a>
+        </div>
+    </footer>
+
+    <script src="/Bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
